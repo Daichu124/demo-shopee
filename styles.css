@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+
+
+header {
+    background: linear-gradient(red, orange);
+    height: 200px;
+}
+
+.container {
+    border: 1px solid black;
+    margin: auto;
+    max-width: 1200px;
+    height: 200px;
+
+
+}
+
+.header-top {
+    align-items: justify;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black
+}
+
+.nav-list-left {
+    gap: 20px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+
+}
+
+.nav-list-left:hover>.qr {
+    display: block;
+}
+
+.nav-list-right {
+    justify-content: right;
+}
+
+.qr {
+    position: absolute;
+    width: 300px;
+    top: 50px;
+    left: 50px;
+    display: none;
+}
+
+.ch-app {
+    display: flex;
+    width: 300px;
+}
